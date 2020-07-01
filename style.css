@@ -1,0 +1,17 @@
+.box{
+    width:100%;
+    height: 80px;
+    background-color:#ea932e;
+    padding-top: 1em;
+    border: hotpink;
+}
+.container {
+    background-color: whitesmoke;
+    width: 100%;
+    height:100%;
+    margin-top: 1%;
+    border: none;
+    border-radius: 1%;
+    box-shadow: 5px 5px 15px 5px gray;
+    font-family: Yatra One;
+}
