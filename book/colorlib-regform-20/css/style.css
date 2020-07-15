@@ -13,10 +13,13 @@
   box-sizing: border-box; }
 
 body {
+  font-family: "Montserrat-Regular";
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  margin: 0; }
 
-  color: rgb(17, 16, 16);
-  }
-
+p, h1, h2, h3, h4, h5, h6, ul {
+  margin: 0; }
 
 
 
@@ -24,7 +27,10 @@ ul {
   padding-left: 0;
   margin-bottom: 0; }
 
-
+a {
+  text-decoration: none;
+  color: #ff9a9c;
+  transition: all 0.3s ease; }
   a:hover {
     text-decoration: none;
     color: #fe4447; }
@@ -33,47 +39,41 @@ ul {
   outline: none; }
 
 .wrapper {
-  min-height: 100%;
-  
+  min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url("../images/bg-registration-form-4.jpg") no-repeat;
+ 
   background-size: cover; }
 
 .inner {
   max-width: 950px;
-  height:auto;
   margin: auto;
-  background: rgb((117, 110, 110)10);
+  background: #fff;
   display: flex;
+  padding-bottom: 1cm;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   -ms-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); }
 
-.image-holder {
-  width: 45%;
-  padding-right: 15px; 
-  
-}
+
 
 form {
-  width: 50%;
-  padding-bottom: 1cm;
+  width: auto;
   padding-top: 77px;
-  padding-right: 80px;
-  padding-left: 70px; }
+  padding-right: 60px;
+  padding-left: 15px; }
 
 h3 {
   font-size: 35px;
   font-family: "ElMessiri-SemiBold";
   text-align: center;
   margin-bottom: 27px;
-  color:black; }
+  color: #fd080c; }
 
 .form-holder {
-  padding-left: auto;
+  padding-left: 24px;
   position: relative; }
   .form-holder:before {
     -webkit-box-sizing: border-box;
@@ -83,14 +83,14 @@ h3 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    border: 2px solid #d68f0a;
+    border: 2px solid #ea932e;
     position: absolute;
     left: 1px;
     top: 50%;
     transform: translateY(-50%); }
   .form-holder.active:before {
     border: 2px solid transparent;
-    background: #f37004; }
+    background: #f9ea932e; }
 
 .form-control {
   display: block;
@@ -98,29 +98,29 @@ h3 {
   border-radius: 23.5px;
   height: 47px;
   padding: 0 24px;
-  color: #808080;
+  color: #726c6c;
   font-size: 13px;
   border: none;
   background: #f7f7f7;
   margin-bottom: 25px; }
   .form-control::-webkit-input-placeholder {
     font-size: 13px;
-    color: #808080;
+    color: #726c6c;
     text-transform: uppercase;
     font-family: "Montserrat-Regular"; }
   .form-control::-moz-placeholder {
     font-size: 13px;
-    color: #808080;
+    color: #a71111;
     text-transform: uppercase;
     font-family: "Montserrat-Regular"; }
   .form-control:-ms-input-placeholder {
     font-size: 13px;
-    color: #808080;
+    color: #59e419;
     text-transform: uppercase;
     font-family: "Montserrat-Regular"; }
   .form-control:-moz-placeholder {
     font-size: 13px;
-    color: #808080;
+    color: #2cb127;
     text-transform: uppercase;
     font-family: "Montserrat-Regular"; }
 
@@ -174,9 +174,9 @@ button {
   align-items: center;
   justify-content: center;
   padding: 0;
-  background: #f37806;
+  background: #ee922a;
   font-size: 15px;
-  color: rgb(14, 12, 12);
+  color: #fff;
   text-transform: uppercase;
   font-family: "Montserrat-SemiBold";
   -webkit-transform: perspective(1px) translateZ(0);
@@ -223,7 +223,7 @@ button {
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    background: #e08815;
+    background: #ff9a9c;
     position: absolute;
     display: none; }
 
